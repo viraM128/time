@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#time {
+    width: 14rem;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#time {
+    width: 14rem;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 3rem;
+    font-family: 'Consolas';
+    pointer-events: none;
+}
+.text-time {
+    margin: 0;
+}
+
+#div-button {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 14rem;
+    height: 3rem;
+    font-size: 1rem;
+    font-family: 'Consolas';
+}
+.button {
+    cursor: pointer;
+}
